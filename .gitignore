@@ -1,0 +1,29 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+build/
+
+# Test artifacts
+*.test
+*.out
+coverage.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Go workspace
+go.work
+go.work.sum
+
+# Local data files (we'll generate these later)
+*.db
+*.wal
+*.sst
+data/
